@@ -35,6 +35,12 @@ footer {
     float: left;
 }
 
+#about img {
+    float: right;
+    width: 40%;
+    margin: 0 4% 0 0;
+}
+
 .syllabus {
     width: 74.5%;
     float: left;

@@ -68,7 +68,7 @@ nav > ul {
 .syllabus ol ol {
     list-style-type: upper-alpha;
 }
-.syllabus ol ol {
+.syllabus ol ol ol {
     list-style-type: upper-decimal;
 }
 

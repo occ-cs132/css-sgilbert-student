@@ -21,6 +21,11 @@ body {
     background-color: rgb(235, 177, 131);
 }
 
+.syllabus h1, .syllabus h2 {
+    color: rgb(101, 101, 101);
+    background-color: rgb(255, 185, 255);
+}
+
 /* Aside and Blockquote Styles */
 
 

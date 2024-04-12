@@ -2,29 +2,31 @@
 /* We'll add our layout styles here */
 
 body {
-
+    width: 100%:
+    max-width: 1020px;
+    min-width: 640px;
 }
 
 header {
-
+    width: 100%;
 }
 
 nav {
-
+    width: 20%;
 }
 
 aside {
-
+    width: 20%;
 }
 
 footer {
-
+    width: 100%;
 }
 
 #about {
-
+    width: 51%;
 }
 
 .syllabus {
-    
+    width: 74.5%;
 }

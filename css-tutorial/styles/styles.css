@@ -57,11 +57,20 @@ nav {
 
 nav > ul {
     line-height: 2em;
+    list-style-type:none;
 }
 
 
 /* List Styles */
-
+.syllabus ol {
+    list-style-type: upper-roman;
+}
+.syllabus ol ol {
+    list-style-type: upper-alpha;
+}
+.syllabus ol ol {
+    list-style-type: upper-decimal;
+}
 
 
 

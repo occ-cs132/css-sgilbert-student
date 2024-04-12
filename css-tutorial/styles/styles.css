@@ -47,7 +47,10 @@ aside {
     font-size: 0.8em;
 }
 
-
+aside blockquote {
+    color: rgb(232, 26, 116);
+    margin: 20px 3px;
+}
 
 
 /* Navigation Styles */

@@ -1,28 +1,63 @@
 @charset "utf-8";
 /* We'll add our presentation styles here */
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 /* HTML and Body Styles */
+html {
+    background-color: hsl(27, 72%, 27%);
+}
 
-
+body {
+    color: rgb(91, 91, 91);
+    background-color: ivory;
+    font-family: Geneva, Verdana, sans-serif;
+}
 
 /* Heading Styles */
+#about h1 {
+    color: white;
+    background-color: rgb(222, 128, 60);
+}
+#about h2 {
+    color: white;
+    background-color: rgb(235, 177, 131);
+}
 
+.syllabus h1, .syllabus h2 {
+    color: rgb(101, 101, 101);
+    background-color: rgb(255, 185, 255);
+}
 
+h1, h2 {
+    font-family: "Quicksand", Geneva, Verdana, sans-serif;
+    letter-spacing: 0.1em;
+}
 
+h1 {
+    font-size: 2.2em;
+}
+h2 {
+    font-size: 1.1em;
+}
 
 
 
 /* Aside and Blockquote Styles */
-
+aside {
+    font-size: 0.8em;
+}
 
 
 
 
 /* Navigation Styles */
+nav {
+    font-size: 0.8em;
+}
 
-
-
+nav > ul {
+    line-height: 2em;
+}
 
 
 /* List Styles */
@@ -32,8 +67,16 @@
 
 
 /* Footer Styles */
+/*
+footer address {
+    background-color: rgb(222, 128, 60);
 
+    color: rgba(255, 255, 255, 60);
 
+    font: normal small-caps bold 0.9em/3em Quicksand, Verdana sans-serif;
+    text-align: center;
+}
+*/
 
 
 

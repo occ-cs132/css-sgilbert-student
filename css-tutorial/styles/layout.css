@@ -2,20 +2,24 @@
 /* We'll add our layout styles here */
 
 body {
+    margin: 0 auto;
     width: 100%:
     max-width: 1020px;
     min-width: 640px;
 }
 
 header {
+    margin: 0;
     width: 100%;
 }
 
 nav {
+    margin: 0 0 0 1.5%;
     width: 20%;
 }
 
 aside {
+    margin: 0 1.5% 0 0;
     width: 20%;
 }
 
@@ -24,6 +28,7 @@ footer {
 }
 
 #about {
+    margin: 0 3% 0 3%;
     width: 51%;
 }
 

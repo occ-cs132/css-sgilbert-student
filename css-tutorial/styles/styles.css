@@ -58,8 +58,10 @@ nav {
 nav > ul {
     line-height: 2em;
     list-style-type:none;
+    padding-left: 5px;
 }
 
+nav > ul > 
 
 /* List Styles */
 .syllabus ol {
@@ -72,7 +74,15 @@ nav > ul {
     list-style-type: upper-decimal;
 }
 
-
+#about ul li:first-of-type {
+    list-style-image: url(../images/runicon.png);
+}
+#about ul li:nth-of-type(2) {
+    list-style-image: url(../images/bikeicon.png);
+}
+#about ul li:last-of-type {
+    list-style-image: url(../images/swimicon.png);
+}
 
 
 /* Footer Styles */

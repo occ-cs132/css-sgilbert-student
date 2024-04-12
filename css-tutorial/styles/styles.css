@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* We'll add our presentation styles here */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 /* HTML and Body Styles */
 html {
@@ -13,6 +14,9 @@ body {
 }
 
 /* Heading Styles */
+h1, h2 {
+    font-family: Quicksand, Geneva, Verdana, sans-serif;
+}
 #about h1 {
     color: white;
     background-color: rgb(222, 128, 60);

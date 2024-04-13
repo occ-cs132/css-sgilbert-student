@@ -45,6 +45,9 @@ nav > ul {
     padding-left: 5px;
 }
 
+nav > ul > li.newgroup {
+    margin-top: 20px;
+}
 
 /* List Styles */
 .syllabus ol {

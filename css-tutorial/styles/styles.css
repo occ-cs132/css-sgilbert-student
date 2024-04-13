@@ -56,6 +56,9 @@ nav > ul {
     list-style-type: decimal;
 }
 
+#about ul li {
+    list-style-image: url(../images/runicon.png);
+}
 
 /* Footer Styles */
 footer address {

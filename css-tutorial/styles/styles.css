@@ -56,8 +56,14 @@ nav > ul {
     list-style-type: decimal;
 }
 
-#about ul li {
+#about ul li:first-of-type {
     list-style-image: url(../images/runicon.png);
+}
+#about ul li:nth-of-type(2) {
+    list-style-image: url(../images/bikeicon.png);
+}
+#about ul li:last-of-type {
+    list-style-image: url(../images/swimicon.png);
 }
 
 /* Footer Styles */
